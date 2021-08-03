@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Conversor Monetário</string>
+    <string name="place_return">Valor em Real</string>
+    <string name="place_currency">R$</string>
+</resources>
