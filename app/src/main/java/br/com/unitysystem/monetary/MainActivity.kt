@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 
         Thread {
             // thread da internet
-            val url = URL("https://free.currconv.com/api/v7/convert?q=${currency}_BRL&compact=ultra&apiKey=51d850ff2cea99d24f4b")
+            val url = URL("https://free.currconv.com/api/v7/convert?q=${currency}_BRL&compact=ultra&apiKey=YOUR_API_KEY")
             val conn = url.openConnection() as HttpsURLConnection
 
             try {
